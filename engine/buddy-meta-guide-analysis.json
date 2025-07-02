@@ -1,0 +1,2422 @@
+{
+  "dependencies": [
+    {
+      "source": "/tmp/buddy-meta-guide/tailwind.config.ts",
+      "target": "tailwindcss",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/tailwind.config.ts",
+      "target": "tailwindcss-animate",
+      "type": "import",
+      "line": 98,
+      "column": 11
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/eslint.config.js",
+      "target": "@eslint/js",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/eslint.config.js",
+      "target": "globals",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/eslint.config.js",
+      "target": "eslint-plugin-react-hooks",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/eslint.config.js",
+      "target": "eslint-plugin-react-refresh",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/eslint.config.js",
+      "target": "typescript-eslint",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/vite.config.ts",
+      "target": "vite",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/vite.config.ts",
+      "target": "@vitejs/plugin-react-swc",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/vite.config.ts",
+      "target": "path",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/vite.config.ts",
+      "target": "lovable-tagger",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "@/components/ui/toaster",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "@/components/ui/sonner",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "@/components/ui/tooltip",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "@tanstack/react-query",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "react-router-dom",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "@/contexts/AuthContext",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "@/components/auth/ProtectedRoute",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "./pages/Landing",
+      "type": "import",
+      "line": 11,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "./pages/Quiz",
+      "type": "import",
+      "line": 12,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "./pages/Roadmap",
+      "type": "import",
+      "line": 13,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "./pages/ModuleDetail",
+      "type": "import",
+      "line": 14,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/App.tsx",
+      "target": "./pages/NotFound",
+      "type": "import",
+      "line": 15,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/main.tsx",
+      "target": "react-dom/client",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/main.tsx",
+      "target": "./App.tsx",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/main.tsx",
+      "target": "./index.css",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx",
+      "target": "@/lib/database",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx",
+      "target": "@/components/ui/use-toast",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/aspect-ratio.tsx",
+      "target": "@radix-ui/react-aspect-ratio",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/alert-dialog.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/alert-dialog.tsx",
+      "target": "@radix-ui/react-alert-dialog",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/alert-dialog.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/alert-dialog.tsx",
+      "target": "@/components/ui/button",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/pagination.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/pagination.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/pagination.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/pagination.tsx",
+      "target": "@/components/ui/button",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/tabs.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/tabs.tsx",
+      "target": "@radix-ui/react-tabs",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/tabs.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/card.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/card.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/slider.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/slider.tsx",
+      "target": "@radix-ui/react-slider",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/slider.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/popover.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/popover.tsx",
+      "target": "@radix-ui/react-popover",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/popover.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx",
+      "target": "@/components/ui/button",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx",
+      "target": "@/components/ui/textarea",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx",
+      "target": "@/lib/gemini",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx",
+      "target": "@/hooks/use-toast",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/progress.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/progress.tsx",
+      "target": "@radix-ui/react-progress",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/progress.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toaster.tsx",
+      "target": "@/hooks/use-toast",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/input-otp.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/input-otp.tsx",
+      "target": "input-otp",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/input-otp.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/input-otp.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/chart.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/chart.tsx",
+      "target": "recharts",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/chart.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/hover-card.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/hover-card.tsx",
+      "target": "@radix-ui/react-hover-card",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/hover-card.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sheet.tsx",
+      "target": "@radix-ui/react-dialog",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sheet.tsx",
+      "target": "class-variance-authority",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sheet.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sheet.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sheet.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/scroll-area.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/scroll-area.tsx",
+      "target": "@radix-ui/react-scroll-area",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/scroll-area.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/resizable.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/resizable.tsx",
+      "target": "react-resizable-panels",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/resizable.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/label.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/label.tsx",
+      "target": "@radix-ui/react-label",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/label.tsx",
+      "target": "class-variance-authority",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/label.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sonner.tsx",
+      "target": "next-themes",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sonner.tsx",
+      "target": "sonner",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/navigation-menu.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/navigation-menu.tsx",
+      "target": "@radix-ui/react-navigation-menu",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/navigation-menu.tsx",
+      "target": "class-variance-authority",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/navigation-menu.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/navigation-menu.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/accordion.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/accordion.tsx",
+      "target": "@radix-ui/react-accordion",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/accordion.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/accordion.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/drawer.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/drawer.tsx",
+      "target": "vaul",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/drawer.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/tooltip.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/tooltip.tsx",
+      "target": "@radix-ui/react-tooltip",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/tooltip.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/alert.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/alert.tsx",
+      "target": "class-variance-authority",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/alert.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/use-toast.ts",
+      "target": "@/hooks/use-toast",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/switch.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/switch.tsx",
+      "target": "@radix-ui/react-switch",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/switch.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/calendar.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/calendar.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/calendar.tsx",
+      "target": "react-day-picker",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/calendar.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/calendar.tsx",
+      "target": "@/components/ui/button",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/breadcrumb.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/breadcrumb.tsx",
+      "target": "@radix-ui/react-slot",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/breadcrumb.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/breadcrumb.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/radio-group.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/radio-group.tsx",
+      "target": "@radix-ui/react-radio-group",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/radio-group.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/radio-group.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/command.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/command.tsx",
+      "target": "@radix-ui/react-dialog",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/command.tsx",
+      "target": "cmdk",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/command.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/command.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/command.tsx",
+      "target": "@/components/ui/dialog",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toggle-group.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toggle-group.tsx",
+      "target": "@radix-ui/react-toggle-group",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toggle-group.tsx",
+      "target": "class-variance-authority",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toggle-group.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toggle-group.tsx",
+      "target": "@/components/ui/toggle",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/avatar.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/avatar.tsx",
+      "target": "@radix-ui/react-avatar",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/avatar.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/menubar.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/menubar.tsx",
+      "target": "@radix-ui/react-menubar",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/menubar.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/menubar.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/dialog.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/dialog.tsx",
+      "target": "@radix-ui/react-dialog",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/dialog.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/dialog.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/badge.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/badge.tsx",
+      "target": "class-variance-authority",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/badge.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "target": "@radix-ui/react-slot",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "target": "class-variance-authority",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "target": "@/hooks/use-mobile",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "target": "@/components/ui/button",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "target": "@/components/ui/input",
+      "type": "import",
+      "line": 9,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "target": "@/components/ui/separator",
+      "type": "import",
+      "line": 10,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "target": "@/components/ui/sheet",
+      "type": "import",
+      "line": 11,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "target": "@/components/ui/skeleton",
+      "type": "import",
+      "line": 12,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/table.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/table.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/separator.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/separator.tsx",
+      "target": "@radix-ui/react-separator",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/separator.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/button.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/button.tsx",
+      "target": "@radix-ui/react-slot",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/button.tsx",
+      "target": "class-variance-authority",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/button.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toggle.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toggle.tsx",
+      "target": "@radix-ui/react-toggle",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toggle.tsx",
+      "target": "class-variance-authority",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toggle.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toast.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toast.tsx",
+      "target": "@radix-ui/react-toast",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toast.tsx",
+      "target": "class-variance-authority",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toast.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/toast.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/checkbox.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/checkbox.tsx",
+      "target": "@radix-ui/react-checkbox",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/checkbox.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/checkbox.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/collapsible.tsx",
+      "target": "@radix-ui/react-collapsible",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/dropdown-menu.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/dropdown-menu.tsx",
+      "target": "@radix-ui/react-dropdown-menu",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/dropdown-menu.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/dropdown-menu.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/select.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/select.tsx",
+      "target": "@radix-ui/react-select",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/select.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/select.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/textarea.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/textarea.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/input.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/input.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/skeleton.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/context-menu.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/context-menu.tsx",
+      "target": "@radix-ui/react-context-menu",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/context-menu.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/context-menu.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/form.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/form.tsx",
+      "target": "@radix-ui/react-label",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/form.tsx",
+      "target": "@radix-ui/react-slot",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/form.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 13,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/form.tsx",
+      "target": "@/components/ui/label",
+      "type": "import",
+      "line": 14,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/carousel.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/carousel.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/carousel.tsx",
+      "target": "@/lib/utils",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/ui/carousel.tsx",
+      "target": "@/components/ui/button",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/auth/ProtectedRoute.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/auth/ProtectedRoute.tsx",
+      "target": "react-router-dom",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/auth/ProtectedRoute.tsx",
+      "target": "@/contexts/AuthContext",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/layout/PageContainer.tsx",
+      "target": "./Header",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/layout/PageContainer.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/layout/Header.tsx",
+      "target": "@/components/ui/button",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/layout/Header.tsx",
+      "target": "@/contexts/AuthContext",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/components/layout/Header.tsx",
+      "target": "react-router-dom",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/hooks/use-mobile.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/hooks/use-toast.ts",
+      "target": "react",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/lib/utils.ts",
+      "target": "clsx",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/lib/utils.ts",
+      "target": "tailwind-merge",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Index.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Index.tsx",
+      "target": "react-router-dom",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "target": "react-router-dom",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "target": "@/contexts/AuthContext",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "target": "@/lib/database",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "target": "@/components/layout/PageContainer",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "target": "@/components/ui/marketing-buddy",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "target": "@/components/ui/card",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "target": "@/components/ui/badge",
+      "type": "import",
+      "line": 9,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 10,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "target": "@/components/ui/tabs",
+      "type": "import",
+      "line": 11,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "target": "@/components/ui/progress",
+      "type": "import",
+      "line": 12,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "react-router-dom",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "@/contexts/AuthContext",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "@/lib/database",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "@/components/layout/PageContainer",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "@/components/ui/marketing-buddy",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "@/components/ui/card",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "@/components/ui/badge",
+      "type": "import",
+      "line": 9,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "@/components/ui/button",
+      "type": "import",
+      "line": 10,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "@/components/ui/textarea",
+      "type": "import",
+      "line": 11,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "lucide-react",
+      "type": "import",
+      "line": 12,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "react-router-dom",
+      "type": "import",
+      "line": 13,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "@/components/ui/progress",
+      "type": "import",
+      "line": 14,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "target": "@/hooks/use-toast",
+      "type": "import",
+      "line": 15,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Landing.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Landing.tsx",
+      "target": "react-router-dom",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Landing.tsx",
+      "target": "@/contexts/AuthContext",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Landing.tsx",
+      "target": "@/components/ui/button",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Landing.tsx",
+      "target": "@/components/ui/card",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Landing.tsx",
+      "target": "@/components/ui/input",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Landing.tsx",
+      "target": "@/components/ui/label",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Landing.tsx",
+      "target": "@/components/ui/use-toast",
+      "type": "import",
+      "line": 9,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "target": "react-router-dom",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "target": "@/contexts/AuthContext",
+      "type": "import",
+      "line": 4,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "target": "@/lib/database",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "target": "@/components/layout/PageContainer",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "target": "@/components/ui/marketing-buddy",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "target": "@/components/ui/button",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "target": "@/components/ui/card",
+      "type": "import",
+      "line": 9,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "target": "@/components/ui/radio-group",
+      "type": "import",
+      "line": 10,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "target": "@/components/ui/label",
+      "type": "import",
+      "line": 11,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/NotFound.tsx",
+      "target": "react-router-dom",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "/tmp/buddy-meta-guide/src/pages/NotFound.tsx",
+      "target": "react",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    }
+  ],
+  "complexity": [
+    {
+      "function": "App",
+      "file": "/tmp/buddy-meta-guide/src/App.tsx",
+      "complexity": "O(1)",
+      "line": 19,
+      "warning": null
+    },
+    {
+      "function": "AuthProvider",
+      "file": "/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx",
+      "complexity": "O(n)",
+      "line": 9,
+      "warning": null
+    },
+    {
+      "function": "logout",
+      "file": "/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx",
+      "complexity": "O(1)",
+      "line": 90,
+      "warning": null
+    },
+    {
+      "function": "logout",
+      "file": "/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx",
+      "complexity": "O(1)",
+      "line": 90,
+      "warning": null
+    },
+    {
+      "function": "Pagination",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/pagination.tsx",
+      "complexity": "O(1)",
+      "line": 7,
+      "warning": null
+    },
+    {
+      "function": "MarketingBuddy",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx",
+      "complexity": "O(1)",
+      "line": 14,
+      "warning": null
+    },
+    {
+      "function": "handleVoiceTrigger",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx",
+      "complexity": "O(1)",
+      "line": 32,
+      "warning": null
+    },
+    {
+      "function": "handleVoiceTrigger",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx",
+      "complexity": "O(1)",
+      "line": 32,
+      "warning": null
+    },
+    {
+      "function": "handleSaveApiKey",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx",
+      "complexity": "O(1)",
+      "line": 36,
+      "warning": null
+    },
+    {
+      "function": "handleSaveApiKey",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx",
+      "complexity": "O(1)",
+      "line": 36,
+      "warning": null
+    },
+    {
+      "function": "Toaster",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/toaster.tsx",
+      "complexity": "O(1)",
+      "line": 11,
+      "warning": null
+    },
+    {
+      "function": "useChart",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/chart.tsx",
+      "complexity": "O(1)",
+      "line": 25,
+      "warning": null
+    },
+    {
+      "function": "ChartStyle",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/chart.tsx",
+      "complexity": "O(1)",
+      "line": 68,
+      "warning": null
+    },
+    {
+      "function": "ChartStyle",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/chart.tsx",
+      "complexity": "O(1)",
+      "line": 68,
+      "warning": null
+    },
+    {
+      "function": "getPayloadConfigFromPayload",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/chart.tsx",
+      "complexity": "O(1)",
+      "line": 318,
+      "warning": null
+    },
+    {
+      "function": "Toaster",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/sonner.tsx",
+      "complexity": "O(1)",
+      "line": 6,
+      "warning": null
+    },
+    {
+      "function": "Toaster",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/sonner.tsx",
+      "complexity": "O(1)",
+      "line": 6,
+      "warning": null
+    },
+    {
+      "function": "Calendar",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/calendar.tsx",
+      "complexity": "O(1)",
+      "line": 10,
+      "warning": null
+    },
+    {
+      "function": "CommandDialog",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/command.tsx",
+      "complexity": "O(1)",
+      "line": 26,
+      "warning": null
+    },
+    {
+      "function": "CommandDialog",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/command.tsx",
+      "complexity": "O(1)",
+      "line": 26,
+      "warning": null
+    },
+    {
+      "function": "Badge",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/badge.tsx",
+      "complexity": "O(1)",
+      "line": 30,
+      "warning": null
+    },
+    {
+      "function": "useSidebar",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "complexity": "O(1)",
+      "line": 39,
+      "warning": null
+    },
+    {
+      "function": "handleKeyDown",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "complexity": "O(1)",
+      "line": 99,
+      "warning": null
+    },
+    {
+      "function": "handleKeyDown",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx",
+      "complexity": "O(1)",
+      "line": 99,
+      "warning": null
+    },
+    {
+      "function": "Skeleton",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/skeleton.tsx",
+      "complexity": "O(1)",
+      "line": 3,
+      "warning": null
+    },
+    {
+      "function": "useFormField",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/form.tsx",
+      "complexity": "O(1)",
+      "line": 42,
+      "warning": null
+    },
+    {
+      "function": "useFormField",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/form.tsx",
+      "complexity": "O(1)",
+      "line": 42,
+      "warning": null
+    },
+    {
+      "function": "useCarousel",
+      "file": "/tmp/buddy-meta-guide/src/components/ui/carousel.tsx",
+      "complexity": "O(1)",
+      "line": 33,
+      "warning": null
+    },
+    {
+      "function": "ProtectedRoute",
+      "file": "/tmp/buddy-meta-guide/src/components/auth/ProtectedRoute.tsx",
+      "complexity": "O(1)",
+      "line": 10,
+      "warning": null
+    },
+    {
+      "function": "PageContainer",
+      "file": "/tmp/buddy-meta-guide/src/components/layout/PageContainer.tsx",
+      "complexity": "O(1)",
+      "line": 9,
+      "warning": null
+    },
+    {
+      "function": "Header",
+      "file": "/tmp/buddy-meta-guide/src/components/layout/Header.tsx",
+      "complexity": "O(1)",
+      "line": 6,
+      "warning": null
+    },
+    {
+      "function": "handleLogout",
+      "file": "/tmp/buddy-meta-guide/src/components/layout/Header.tsx",
+      "complexity": "O(1)",
+      "line": 10,
+      "warning": null
+    },
+    {
+      "function": "handleLogout",
+      "file": "/tmp/buddy-meta-guide/src/components/layout/Header.tsx",
+      "complexity": "O(1)",
+      "line": 10,
+      "warning": null
+    },
+    {
+      "function": "useIsMobile",
+      "file": "/tmp/buddy-meta-guide/src/hooks/use-mobile.tsx",
+      "complexity": "O(1)",
+      "line": 5,
+      "warning": null
+    },
+    {
+      "function": "onChange",
+      "file": "/tmp/buddy-meta-guide/src/hooks/use-mobile.tsx",
+      "complexity": "O(1)",
+      "line": 10,
+      "warning": null
+    },
+    {
+      "function": "onChange",
+      "file": "/tmp/buddy-meta-guide/src/hooks/use-mobile.tsx",
+      "complexity": "O(1)",
+      "line": 10,
+      "warning": null
+    },
+    {
+      "function": "genId",
+      "file": "/tmp/buddy-meta-guide/src/hooks/use-toast.ts",
+      "complexity": "O(1)",
+      "line": 27,
+      "warning": null
+    },
+    {
+      "function": "addToRemoveQueue",
+      "file": "/tmp/buddy-meta-guide/src/hooks/use-toast.ts",
+      "complexity": "O(1)",
+      "line": 58,
+      "warning": null
+    },
+    {
+      "function": "addToRemoveQueue",
+      "file": "/tmp/buddy-meta-guide/src/hooks/use-toast.ts",
+      "complexity": "O(1)",
+      "line": 58,
+      "warning": null
+    },
+    {
+      "function": "dispatch",
+      "file": "/tmp/buddy-meta-guide/src/hooks/use-toast.ts",
+      "complexity": "O(n)",
+      "line": 133,
+      "warning": null
+    },
+    {
+      "function": "toast",
+      "file": "/tmp/buddy-meta-guide/src/hooks/use-toast.ts",
+      "complexity": "O(1)",
+      "line": 142,
+      "warning": null
+    },
+    {
+      "function": "update",
+      "file": "/tmp/buddy-meta-guide/src/hooks/use-toast.ts",
+      "complexity": "O(1)",
+      "line": 145,
+      "warning": null
+    },
+    {
+      "function": "dismiss",
+      "file": "/tmp/buddy-meta-guide/src/hooks/use-toast.ts",
+      "complexity": "O(1)",
+      "line": 150,
+      "warning": null
+    },
+    {
+      "function": "useToast",
+      "file": "/tmp/buddy-meta-guide/src/hooks/use-toast.ts",
+      "complexity": "O(1)",
+      "line": 171,
+      "warning": null
+    },
+    {
+      "function": "cn",
+      "file": "/tmp/buddy-meta-guide/src/lib/utils.ts",
+      "complexity": "O(1)",
+      "line": 4,
+      "warning": null
+    },
+    {
+      "function": "generateGeminiResponse",
+      "file": "/tmp/buddy-meta-guide/src/lib/gemini.ts",
+      "complexity": "O(1)",
+      "line": 12,
+      "warning": null
+    },
+    {
+      "function": "Index",
+      "file": "/tmp/buddy-meta-guide/src/pages/Index.tsx",
+      "complexity": "O(1)",
+      "line": 5,
+      "warning": null
+    },
+    {
+      "function": "Index",
+      "file": "/tmp/buddy-meta-guide/src/pages/Index.tsx",
+      "complexity": "O(1)",
+      "line": 5,
+      "warning": null
+    },
+    {
+      "function": "Roadmap",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(n)",
+      "line": 14,
+      "warning": null
+    },
+    {
+      "function": "getModuleTypeLabel",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(1)",
+      "line": 58,
+      "warning": null
+    },
+    {
+      "function": "getModuleTypeLabel",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(1)",
+      "line": 58,
+      "warning": null
+    },
+    {
+      "function": "getModuleTypeColor",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(1)",
+      "line": 67,
+      "warning": null
+    },
+    {
+      "function": "getModuleTypeColor",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(1)",
+      "line": 67,
+      "warning": null
+    },
+    {
+      "function": "getBuddyMessage",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(n)",
+      "line": 76,
+      "warning": null
+    },
+    {
+      "function": "getBuddyMessage",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(n)",
+      "line": 76,
+      "warning": null
+    },
+    {
+      "function": "goalText",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(1)",
+      "line": 79,
+      "warning": null
+    },
+    {
+      "function": "goalText",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(1)",
+      "line": 79,
+      "warning": null
+    },
+    {
+      "function": "channelText",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(1)",
+      "line": 90,
+      "warning": null
+    },
+    {
+      "function": "channelText",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(1)",
+      "line": 90,
+      "warning": null
+    },
+    {
+      "function": "renderModulesList",
+      "file": "/tmp/buddy-meta-guide/src/pages/Roadmap.tsx",
+      "complexity": "O(1)",
+      "line": 110,
+      "warning": null
+    },
+    {
+      "function": "ModuleDetail",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(n)",
+      "line": 17,
+      "warning": null
+    },
+    {
+      "function": "getModuleTypeLabel",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 59,
+      "warning": null
+    },
+    {
+      "function": "getModuleTypeLabel",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 59,
+      "warning": null
+    },
+    {
+      "function": "getModuleTypeColor",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 68,
+      "warning": null
+    },
+    {
+      "function": "getModuleTypeColor",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 68,
+      "warning": null
+    },
+    {
+      "function": "getBuddyMessage",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 77,
+      "warning": null
+    },
+    {
+      "function": "getBuddyMessage",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 77,
+      "warning": null
+    },
+    {
+      "function": "handleAskBuddy",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 101,
+      "warning": null
+    },
+    {
+      "function": "handleAskBuddy",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 101,
+      "warning": null
+    },
+    {
+      "function": "handleViewContent",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 105,
+      "warning": null
+    },
+    {
+      "function": "handleViewContent",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 105,
+      "warning": null
+    },
+    {
+      "function": "handleMarkProgress",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 113,
+      "warning": null
+    },
+    {
+      "function": "handleMarkProgress",
+      "file": "/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx",
+      "complexity": "O(1)",
+      "line": 113,
+      "warning": null
+    },
+    {
+      "function": "Landing",
+      "file": "/tmp/buddy-meta-guide/src/pages/Landing.tsx",
+      "complexity": "O(1)",
+      "line": 11,
+      "warning": null
+    },
+    {
+      "function": "Quiz",
+      "file": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "complexity": "O(n)",
+      "line": 13,
+      "warning": null
+    },
+    {
+      "function": "handleSubmit",
+      "file": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "complexity": "O(1)",
+      "line": 22,
+      "warning": null
+    },
+    {
+      "function": "handleSubmit",
+      "file": "/tmp/buddy-meta-guide/src/pages/Quiz.tsx",
+      "complexity": "O(1)",
+      "line": 22,
+      "warning": null
+    },
+    {
+      "function": "NotFound",
+      "file": "/tmp/buddy-meta-guide/src/pages/NotFound.tsx",
+      "complexity": "O(1)",
+      "line": 4,
+      "warning": null
+    },
+    {
+      "function": "NotFound",
+      "file": "/tmp/buddy-meta-guide/src/pages/NotFound.tsx",
+      "complexity": "O(1)",
+      "line": 4,
+      "warning": null
+    }
+  ],
+  "cycles": [],
+  "metrics": {
+    "total_files": 72,
+    "total_functions": 104,
+    "average_complexity": "O(1)",
+    "dependency_count": 265,
+    "circular_dependencies": 0
+  }
+}

@@ -1,0 +1,600 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CodeGraph Analysis Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            .metric { background: #f5f5f5; padding: 10px; margin: 10px 0; border-radius: 5px; }
+            .warning { background: #fff3cd; border: 1px solid #ffeaa7; }
+            .error { background: #f8d7da; border: 1px solid #f5c6cb; }
+            .dependency { margin: 5px 0; padding: 5px; background: #e9ecef; }
+            .complexity-high { color: #dc3545; font-weight: bold; }
+            .complexity-medium { color: #ffc107; }
+            .complexity-low { color: #28a745; }
+            table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+        </style>
+    </head>
+    <body>
+        <h1>CodeGraph Analysis Report</h1>
+        
+        <div class="metric">
+            <h2>Project Metrics</h2>
+            <p><strong>Total Files:</strong> 72</p>
+            <p><strong>Total Functions:</strong> 104</p>
+            <p><strong>Average Complexity:</strong> O(1)</p>
+            <p><strong>Dependencies:</strong> 265</p>
+            <p><strong>Circular Dependencies:</strong> 0</p>
+        </div>
+        
+        <h2>Complexity Analysis</h2>
+        <table>
+            <tr><th>Function</th><th>File</th><th>Complexity</th><th>Warning</th></tr>
+            
+        <tr class="complexity-low">
+            <td>App</td>
+            <td>/tmp/buddy-meta-guide/src/App.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>AuthProvider</td>
+            <td>/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>logout</td>
+            <td>/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>logout</td>
+            <td>/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Pagination</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/pagination.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>MarketingBuddy</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleVoiceTrigger</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleVoiceTrigger</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleSaveApiKey</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleSaveApiKey</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Toaster</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/toaster.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>useChart</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/chart.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ChartStyle</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/chart.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ChartStyle</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/chart.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getPayloadConfigFromPayload</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/chart.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Toaster</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/sonner.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Toaster</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/sonner.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Calendar</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/calendar.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>CommandDialog</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/command.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>CommandDialog</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/command.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Badge</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/badge.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>useSidebar</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleKeyDown</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleKeyDown</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/sidebar.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Skeleton</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/skeleton.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>useFormField</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/form.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>useFormField</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/form.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>useCarousel</td>
+            <td>/tmp/buddy-meta-guide/src/components/ui/carousel.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ProtectedRoute</td>
+            <td>/tmp/buddy-meta-guide/src/components/auth/ProtectedRoute.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>PageContainer</td>
+            <td>/tmp/buddy-meta-guide/src/components/layout/PageContainer.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Header</td>
+            <td>/tmp/buddy-meta-guide/src/components/layout/Header.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleLogout</td>
+            <td>/tmp/buddy-meta-guide/src/components/layout/Header.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleLogout</td>
+            <td>/tmp/buddy-meta-guide/src/components/layout/Header.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>useIsMobile</td>
+            <td>/tmp/buddy-meta-guide/src/hooks/use-mobile.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>onChange</td>
+            <td>/tmp/buddy-meta-guide/src/hooks/use-mobile.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>onChange</td>
+            <td>/tmp/buddy-meta-guide/src/hooks/use-mobile.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>genId</td>
+            <td>/tmp/buddy-meta-guide/src/hooks/use-toast.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>addToRemoveQueue</td>
+            <td>/tmp/buddy-meta-guide/src/hooks/use-toast.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>addToRemoveQueue</td>
+            <td>/tmp/buddy-meta-guide/src/hooks/use-toast.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>dispatch</td>
+            <td>/tmp/buddy-meta-guide/src/hooks/use-toast.ts</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>toast</td>
+            <td>/tmp/buddy-meta-guide/src/hooks/use-toast.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>update</td>
+            <td>/tmp/buddy-meta-guide/src/hooks/use-toast.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>dismiss</td>
+            <td>/tmp/buddy-meta-guide/src/hooks/use-toast.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>useToast</td>
+            <td>/tmp/buddy-meta-guide/src/hooks/use-toast.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>cn</td>
+            <td>/tmp/buddy-meta-guide/src/lib/utils.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>generateGeminiResponse</td>
+            <td>/tmp/buddy-meta-guide/src/lib/gemini.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Index</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Index.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Index</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Index.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>Roadmap</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleTypeLabel</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleTypeLabel</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleTypeColor</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleTypeColor</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>getBuddyMessage</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>getBuddyMessage</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>goalText</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>goalText</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>channelText</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>channelText</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>renderModulesList</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Roadmap.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>ModuleDetail</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleTypeLabel</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleTypeLabel</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleTypeColor</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleTypeColor</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getBuddyMessage</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getBuddyMessage</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleAskBuddy</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleAskBuddy</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleViewContent</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleViewContent</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleMarkProgress</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleMarkProgress</td>
+            <td>/tmp/buddy-meta-guide/src/pages/ModuleDetail.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Landing</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Landing.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>Quiz</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Quiz.tsx</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleSubmit</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Quiz.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleSubmit</td>
+            <td>/tmp/buddy-meta-guide/src/pages/Quiz.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NotFound</td>
+            <td>/tmp/buddy-meta-guide/src/pages/NotFound.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NotFound</td>
+            <td>/tmp/buddy-meta-guide/src/pages/NotFound.tsx</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        </table>
+        
+        <h2>Circular Dependencies</h2>
+        <div class="metric">No circular dependencies found!</div>
+        
+        <h2>Dependencies</h2>
+        <div>
+            <div class="dependency">/tmp/buddy-meta-guide/tailwind.config.ts → tailwindcss (import)</div><div class="dependency">/tmp/buddy-meta-guide/tailwind.config.ts → tailwindcss-animate (import)</div><div class="dependency">/tmp/buddy-meta-guide/eslint.config.js → @eslint/js (import)</div><div class="dependency">/tmp/buddy-meta-guide/eslint.config.js → globals (import)</div><div class="dependency">/tmp/buddy-meta-guide/eslint.config.js → eslint-plugin-react-hooks (import)</div><div class="dependency">/tmp/buddy-meta-guide/eslint.config.js → eslint-plugin-react-refresh (import)</div><div class="dependency">/tmp/buddy-meta-guide/eslint.config.js → typescript-eslint (import)</div><div class="dependency">/tmp/buddy-meta-guide/vite.config.ts → vite (import)</div><div class="dependency">/tmp/buddy-meta-guide/vite.config.ts → @vitejs/plugin-react-swc (import)</div><div class="dependency">/tmp/buddy-meta-guide/vite.config.ts → path (import)</div><div class="dependency">/tmp/buddy-meta-guide/vite.config.ts → lovable-tagger (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → @/components/ui/toaster (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → @/components/ui/sonner (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → @/components/ui/tooltip (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → @tanstack/react-query (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → react-router-dom (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → @/contexts/AuthContext (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → @/components/auth/ProtectedRoute (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → ./pages/Landing (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → ./pages/Quiz (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → ./pages/Roadmap (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → ./pages/ModuleDetail (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/App.tsx → ./pages/NotFound (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/main.tsx → react-dom/client (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/main.tsx → ./App.tsx (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/main.tsx → ./index.css (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx → react (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx → @/lib/database (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/contexts/AuthContext.tsx → @/components/ui/use-toast (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/aspect-ratio.tsx → @radix-ui/react-aspect-ratio (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/alert-dialog.tsx → react (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/alert-dialog.tsx → @radix-ui/react-alert-dialog (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/alert-dialog.tsx → @/lib/utils (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/alert-dialog.tsx → @/components/ui/button (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/pagination.tsx → react (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/pagination.tsx → lucide-react (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/pagination.tsx → @/lib/utils (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/pagination.tsx → @/components/ui/button (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/tabs.tsx → react (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/tabs.tsx → @radix-ui/react-tabs (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/tabs.tsx → @/lib/utils (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/card.tsx → react (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/card.tsx → @/lib/utils (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/slider.tsx → react (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/slider.tsx → @radix-ui/react-slider (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/slider.tsx → @/lib/utils (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/popover.tsx → react (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/popover.tsx → @radix-ui/react-popover (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/popover.tsx → @/lib/utils (import)</div><div class="dependency">/tmp/buddy-meta-guide/src/components/ui/marketing-buddy.tsx → react (import)</div>
+        </div>
+    </body>
+    </html>
+    
