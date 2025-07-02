@@ -1,0 +1,4058 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CodeGraph Analysis Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            .metric { background: #f5f5f5; padding: 10px; margin: 10px 0; border-radius: 5px; }
+            .warning { background: #fff3cd; border: 1px solid #ffeaa7; }
+            .error { background: #f8d7da; border: 1px solid #f5c6cb; }
+            .dependency { margin: 5px 0; padding: 5px; background: #e9ecef; }
+            .complexity-high { color: #dc3545; font-weight: bold; }
+            .complexity-medium { color: #ffc107; }
+            .complexity-low { color: #28a745; }
+            table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+        </style>
+    </head>
+    <body>
+        <h1>CodeGraph Analysis Report</h1>
+        
+        <div class="metric">
+            <h2>Project Metrics</h2>
+            <p><strong>Total Files:</strong> 102</p>
+            <p><strong>Total Functions:</strong> 1771</p>
+            <p><strong>Average Complexity:</strong> O(log n)</p>
+            <p><strong>Dependencies:</strong> 502</p>
+            <p><strong>Circular Dependencies:</strong> 0</p>
+        </div>
+        
+        <h2>Complexity Analysis</h2>
+        <table>
+            <tr><th>Function</th><th>File</th><th>Complexity</th><th>Warning</th></tr>
+            
+        <tr class="complexity-low">
+            <td>run_server</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/react-server.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>end_headers</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/react-server.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>do_GET</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/react-server.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getEnvOrDefault</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>r</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/main.198dfa8f.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>push</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/main.198dfa8f.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>c</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/main.198dfa8f.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>a</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/main.198dfa8f.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>T</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/main.198dfa8f.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>s</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/968.6c4f3621.chunk.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>s</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/968.6c4f3621.chunk.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>o</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/9.ccbead80.chunk.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>t</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/9.ccbead80.chunk.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>n</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/9.ccbead80.chunk.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>D</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/9.ccbead80.chunk.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>t</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/9.ccbead80.chunk.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>c</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/803.9d05a28a.chunk.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>c</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/803.9d05a28a.chunk.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>A</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/372.7995a7e5.chunk.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>i</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/build/static/js/372.7995a7e5.chunk.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>App</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>isFeatureEnabled</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/config/featureFlags.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>isFeatureEnabled</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/config/featureFlags.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getAPIVersion</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/config/featureFlags.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getAPIVersion</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/config/featureFlags.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>shouldUseLegacyComponent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/config/featureFlags.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>shouldUseLegacyComponent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/config/featureFlags.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>createFeatureFlagContext</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/config/featureFlags.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>createFeatureFlagContext</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/config/featureFlags.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>Sidebar</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/Sidebar.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>Sidebar</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/Sidebar.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>isActive</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/Sidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCompletionStatus</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/Sidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCompletionStatus</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/Sidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getProgressPercent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/Sidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getProgressPercent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/Sidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>HealthStatus</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/HealthStatus.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>HealthStatus</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/HealthStatus.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleClickOutside</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/HealthStatus.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleClickOutside</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/HealthStatus.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Leaderboard</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/Leaderboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Leaderboard</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/Leaderboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Header</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/Header.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Header</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/Header.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ResponsiveNavbar</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/ResponsiveNavbar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ResponsiveNavbar</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/ResponsiveNavbar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>toggleMenu</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/ResponsiveNavbar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>toggleMenu</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/ResponsiveNavbar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ArticleReviewQueue</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/ArticleReviewQueue.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ArticleReviewQueue</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/ArticleReviewQueue.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>LearningPaths</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/LearningPaths.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>LearningPaths</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/LearningPaths.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getPathProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/LearningPaths.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getPathProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/LearningPaths.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getDifficultyColor</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/LearningPaths.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getDifficultyColor</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/LearningPaths.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCategoryIcon</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/LearningPaths.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCategoryIcon</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/LearningPaths.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>CollapsibleModuleSection</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/CollapsibleModuleSection.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>CollapsibleModuleSection</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/CollapsibleModuleSection.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>toggleSection</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/CollapsibleModuleSection.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>toggleSection</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/CollapsibleModuleSection.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>KnowledgeBase</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/KnowledgeBase.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>KnowledgeBase</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/KnowledgeBase.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleQuickSearch</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/KnowledgeBase.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleQuickSearch</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/KnowledgeBase.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>highlightSearchTerms</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/KnowledgeBase.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>highlightSearchTerms</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/KnowledgeBase.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCategoryIcon</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/KnowledgeBase.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCategoryIcon</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/KnowledgeBase.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCategoryColor</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/KnowledgeBase.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCategoryColor</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/KnowledgeBase.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ComponentWithMemo</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/ComponentWithMemo.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ComponentWithMemo</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/ComponentWithMemo.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>EnhancedSidebar</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>EnhancedSidebar</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>isActive</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>toggleSection</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>toggleSection</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCompletionStatus</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCompletionStatus</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getProgressPercent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getProgressPercent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>calculateOverallProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>calculateOverallProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NavItem</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>SectionHeader</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/EnhancedSidebar.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>AchievementToast</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserAchievementToast.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>AchievementToast</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserAchievementToast.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>PointsCounter</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserPointsCounter.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>PointsCounter</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserPointsCounter.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ProgressTracker</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserProgressTracker.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ProgressTracker</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserProgressTracker.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCompletedCount</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserProgressTracker.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCompletedCount</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserProgressTracker.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getOverallProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserProgressTracker.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getOverallProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserProgressTracker.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>AchievementBadge</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserAchievementBadge.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>AchievementBadge</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/components/User/UserAchievementBadge.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Quiz</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Quiz.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Quiz</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Quiz.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleAnswerChange</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Quiz.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>handleAnswerChange</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Quiz.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>Roadmap</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Roadmap.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>Roadmap</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Roadmap.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleStatus</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Roadmap.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleStatus</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Roadmap.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getStatusIcon</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Roadmap.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getStatusIcon</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Roadmap.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getStatusColor</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Roadmap.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getStatusColor</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Roadmap.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Module</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Module.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Module</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Module.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>Dashboard</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Dashboard.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>Dashboard</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Dashboard.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleStatus</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Dashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModuleStatus</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Dashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getStatusColor</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Dashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getStatusColor</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Dashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getStatusText</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Dashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getStatusText</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Dashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCompletedCount</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Dashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getCompletedCount</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/Dashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>EnhancedDashboard</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/EnhancedDashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>EnhancedDashboard</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/EnhancedDashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>calculateOverallProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/EnhancedDashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>calculateOverallProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/EnhancedDashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getProgressInsights</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/EnhancedDashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getProgressInsights</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/EnhancedDashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getRecentActivity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/EnhancedDashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getRecentActivity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/pages/EnhancedDashboard.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/legendaryAPI.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>updateProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/legendaryAPI.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>resetProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/legendaryAPI.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/legendaryAPI.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getRoadmap</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/legendaryAPI.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getQuiz</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/legendaryAPI.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>submitQuiz</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/legendaryAPI.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getQuizResults</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/legendaryAPI.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>startHealthMonitoring</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/api.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>startHealthMonitoring</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/api.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>stopHealthMonitoring</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/api.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>stopHealthMonitoring</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/api.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getHealthStatus</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/services/api.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>RequestLogger</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/middleware/logger.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>NewConnection</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/database/connection.go</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getEnvOrDefault</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/database/connection.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Close</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/database/connection.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>RunMigrations</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/database/connection.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewProgressRepository</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/repository/database.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>GetUserProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/repository/database.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>UpdateProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/repository/database.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ResetProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/repository/database.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ensureUser</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/repository/database.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewQuizRepository</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/repository/database.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>SaveSubmission</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/repository/database.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetLatestSubmission</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/repository/database.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ensureUser</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/repository/database.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>InitLogger</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/utils/logger.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetLogger</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/utils/logger.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewUserProfileHandler</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/user_profile_handler.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetUserProfile</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/user_profile_handler.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewQuizHandler</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/quiz.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetQuiz</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/quiz.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>SubmitQuiz</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/quiz.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>GetResults</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/quiz.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>GetQuizzes</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/quiz.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetQuizById</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/quiz.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>StartQuizAttempt</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/quiz.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>SubmitModernQuiz</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/quiz.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>GetModernQuizResults</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/quiz.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewContentHandler</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>GetContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetRoadmap</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetLearningPaths</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetLearningPath</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetLearningPathModules</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>GetModules</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetModule</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetModuleContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>GetKnowledgeBase</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>SearchKnowledgeBase</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetKnowledgeItem</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewProgressHandler</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>UpdateProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ResetProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetDetailedProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>UpdateModuleProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>UpdateLearningPathProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewAIHandler</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>Chat</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ListModels</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Health</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GenerateTrainingContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GenerateQuizQuestions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GetAIMetrics</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Chat</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ListModels</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>HealthCheck</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GenerateTrainingContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GenerateQuizQuestions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setupTestRouter</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestAIHandler_Chat</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestAIHandler_ListModels</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestAIHandler_Health</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestAIHandler_GenerateTrainingContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestAIHandler_GenerateQuizQuestions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>TestAIHandler_GetAIMetrics</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/handlers/v2/ai_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>TestUpdateProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/progress_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>TestResetProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/progress_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setupTestDB</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/analyticsService/analytics_service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestHandleStatsRequest</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/analyticsService/analytics_service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewAnalyticsService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/analyticsService/analytics_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>GetArticleStats</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/analyticsService/analytics_service.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>HandleStatsRequest</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/analyticsService/analytics_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewGamificationService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/gamificationService/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>HandleModuleCompleted</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/gamificationService/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewGamificationService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/gamification/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>HandleModuleCompleted</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/gamification/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>TestUpdateProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/progressService/progress_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>TestResetProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/progressService/progress_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewProgressService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/progressService/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewProgressServiceWithDB</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/progressService/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>FindProgressByUserID</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/progressService/progress.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>UpdateProgressByUserAndModule</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/progressService/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ResetProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/progressService/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>FindModuleProgressByUserAndModule</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/progressService/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ExportProgress</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/progressService/progress.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewContentEnrichmentService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/content_enrichment/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ScrapeContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/content_enrichment/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>GenerateVectorEmbeddings</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/content_enrichment/service.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ListenForArticleApproved</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/content_enrichment/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>InitializeEmbeddingService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/content_enrichment/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setupTestDB</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/content_enrichment/service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestGenerateVectorEmbeddings</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/content_enrichment/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestListenForArticleApproved</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/content_enrichment/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewVectorEmbeddingService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/content_enrichment/vector_embedding_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GenerateEmbeddings</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/content_enrichment/vector_embedding_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Chat</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>ListModels</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>HealthCheck</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>GenerateTrainingContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service.go</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>GenerateQuizQuestions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service.go</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestService_Chat</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestService_ListModels</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestService_HealthCheck</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>TestService_GenerateTrainingContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestService_GenerateQuizQuestions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>TestService_ContextTimeout</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiService/service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setupTestDB</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai_assistant/rag_service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>TestHandleSearchRequest</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai_assistant/rag_service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewRAGService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai_assistant/rag_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>SearchKnowledgeBase</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai_assistant/rag_service.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>HandleSearchRequest</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai_assistant/rag_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>Chat</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>ListModels</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>HealthCheck</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>GenerateTrainingContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service.go</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>GenerateQuizQuestions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service.go</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestService_Chat</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestService_ListModels</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestService_HealthCheck</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>TestService_GenerateTrainingContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestService_GenerateQuizQuestions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>TestService_ContextTimeout</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/ai/service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setupTestDB</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiAssistantService/rag_service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>TestHandleSearchRequest</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiAssistantService/rag_service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewRAGService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiAssistantService/rag_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>SearchKnowledgeBase</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiAssistantService/rag_service.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>HandleSearchRequest</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/aiAssistantService/rag_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewQuizService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/quizService/quiz.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewQuizServiceWithDB</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/quizService/quiz.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>initializeQuizzes</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/quizService/quiz.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>FindQuizByID</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/quizService/quiz.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>CreateQuizSubmission</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/quizService/quiz.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>FindQuizResultsByUserAndQuiz</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/quizService/quiz.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>FindQuizByIDWithAnswers</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/quizService/quiz.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewContentEnrichmentService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentEnrichmentService/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ScrapeContent</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentEnrichmentService/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>GenerateVectorEmbeddings</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentEnrichmentService/service.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>ListenForArticleApproved</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentEnrichmentService/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>InitializeEmbeddingService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentEnrichmentService/service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setupTestDB</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentEnrichmentService/service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestGenerateVectorEmbeddings</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentEnrichmentService/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestListenForArticleApproved</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentEnrichmentService/service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewVectorEmbeddingService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentEnrichmentService/vector_embedding_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>GenerateEmbeddings</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentEnrichmentService/vector_embedding_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewContentService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>FindAllLearningPaths</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>FindLearningPathByIDWithModules</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>FindModuleByID</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>SearchKnowledgeBase</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>FindKnowledgeBaseEntryByID</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>FindLegacyContentBySection</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>FindAllLegacyRoadmap</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getLearningPathByID</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>getModulesForLearningPath</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>getModulePrerequisites</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>getInMemorySearchResults</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/contentService/content.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setupTestDB</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/analytics/analytics_service_test.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>TestHandleStatsRequest</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/analytics/analytics_service_test.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewAnalyticsService</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/analytics/analytics_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>GetArticleStats</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/analytics/analytics_service.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>HandleStatsRequest</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/internal/services/analytics/analytics_service.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>compare_approaches</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>analyze_codebase</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_analyze_imports</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_analyze_types</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_analyze_functions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_build_dependency_graph</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_find_test_files</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>load_transformation_rules</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>analyze_and_plan</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_create_execution_plan</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_find_affected_files</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_analyze_transformation_impact</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>execute_transformations</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_validate_compilation</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_validate_tests</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>topological_sort</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/advanced_refactoring_engine.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>fix_ai_test_file</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/project_overhaul/fix_ai_test.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>get</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/extension/out/extension.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>activate</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/extension/out/extension.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>deactivate</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/extension/out/extension.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>activate</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/extension/src/extension.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>deactivate</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/extension/src/extension.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>simpleFunction</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/go_example.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>linearSearch</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/go_example.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>bubbleSort</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/go_example.go</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>NewDataProcessor</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/go_example.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>ProcessData</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/go_example.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>ComplexAnalysis</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/go_example.go</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>fibonacci</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/go_example.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/go_example.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>simpleFunction</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/javascript_example.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>linearSearch</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/javascript_example.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>bubbleSort</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/javascript_example.js</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>quickProcess</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/javascript_example.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>quickProcess</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/javascript_example.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>processItem</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/javascript_example.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/javascript_example.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>simple_function</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/python_example.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>linear_search</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/python_example.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>nested_loop_function</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/python_example.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>recursive_fibonacci</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/python_example.py</td>
+            <td>O(2^n)</td>
+            <td>Consider optimizing - complexity is O(2^n)</td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/python_example.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/python_example.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>process_data</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/python_example.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>complex_analysis</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/examples/python_example.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>generate_html_report</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>can_parse</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>parse</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>parse</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_extract_dependencies</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_analyze_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_estimate_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_is_high_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_extract_functions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_extract_imports</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_extract_classes</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>parse</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_extract_dependencies</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_analyze_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_extract_functions_with_lines</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_extract_function_body</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_estimate_js_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_is_high_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_extract_functions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_extract_imports</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_extract_classes</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>parse</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_extract_dependencies</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_analyze_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_extract_functions_with_lines</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_extract_go_function_body</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_estimate_go_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_is_high_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_extract_functions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_extract_imports</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_extract_structs</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>add_dependency</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>detect_cycles</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>get_dependencies</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>get_dependents</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>analyze_project</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_find_source_files</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_get_parser</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_calculate_average_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>dfs</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/codegraph.py</td>
+            <td>O(2^n)</td>
+            <td>Consider optimizing - complexity is O(2^n)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>run_tests</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setUp</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>test_can_parse_python_files</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>test_parse_simple_python</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setUp</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>test_can_parse_js_files</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>test_parse_simple_javascript</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setUp</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>test_can_parse_go_files</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>test_parse_simple_go</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setUp</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>test_add_dependency</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>test_cycle_detection</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>test_no_cycles</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>setUp</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>test_analyze_empty_project</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>test_analyze_simple_project</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>test_complexity_estimation</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/codegraph/engine/test_codegraph.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>requires_docker</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_setup_logging</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_load_configuration</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_analyze_system_requirements</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_build_complete_dependency_graph</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_validate_graph_integrity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>validate_system_resources</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_verify_docker_availability</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_verify_ports_availability</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_verify_port_availability</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_get_process_using_port</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>get_startup_order</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>verify_prerequisites</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_generate_remediation_guidance</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>start_service</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_wait_for_health</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_check_service_health</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>start_all_services</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_generate_startup_report</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>get_service_dashboard</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_create_default_configuration</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-v2.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>requires_docker</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_setup_logging</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_load_configuration</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_create_default_configuration</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_build_dependency_graph</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_validate_graph_integrity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>get_startup_order</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>start_service</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_wait_for_health</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_check_service_health</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>start_all_services</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_generate_startup_report</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>get_service_dashboard</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator-backup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>create_zimpler_service_definitions</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>create_zimpler_services</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_setup_logging</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>register_service</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_validate_service_definition</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_build_dependency_graph</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>start_all_services</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_validate_system_prerequisites</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_check_ports_available</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_is_port_available</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_check_disk_space</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_check_memory</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_check_required_binaries</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_start_service</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_wait_for_service_health</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_validate_all_services_healthy</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_validate_service_health</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_calculate_performance_improvement</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_log_success_metrics</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>stop_all_services</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_stop_service</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>register_service</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>build_dependency_graph</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>validate_environment</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_check_go</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_check_node</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_check_python</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_check_ports</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_check_workspace</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_check_dependencies</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_is_port_in_use</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>start_service</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_wait_for_startup</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_perform_health_check</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>start_all_services</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_generate_startup_report</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>stop_all_services</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>signal_handler</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_load_framework_documentation</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>validate_operation</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>enforce_cs_standards</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_has_semantic_understanding</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_analyze_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_generate_ast_transformation</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_perform_semantic_analysis</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_generate_optimized_operation</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_validate_transformation_result</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_generate_audit_trail</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>get_compliance_report</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>can_parse</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>has_dependency_info</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>analyze_complexity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>generate_transformations</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>full_semantic_analysis</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>optimize_operation</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>validate_changes</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>update_dependencies</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>predict_impact</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>suggest_optimizations</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>calculate_guarantees</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>get_metrics</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>record_validation</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>record_violation</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-enforcer.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-status-dashboard.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-status-dashboard.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>clear_screen</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-status-dashboard.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>check_service_health</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-status-dashboard.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>calculate_uptime_percentage</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-status-dashboard.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>get_average_response_time</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-status-dashboard.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>display_dashboard</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-status-dashboard.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>run_dashboard</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-status-dashboard.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>requires_docker</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>is_no_op</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>__init__</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_setup_logging</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_load_configuration</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_analyze_system_requirements</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>_build_complete_dependency_graph</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_validate_graph_integrity</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>validate_system_resources</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_verify_docker_availability</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_verify_ports_availability</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_verify_port_availability</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_get_process_using_port</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>get_startup_order</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>verify_prerequisites</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_generate_remediation_guidance</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>start_service</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_wait_for_health</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_check_service_health</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>start_all_services</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>_generate_startup_report</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>get_service_dashboard</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>_create_default_configuration</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/cs-excellence-startup-orchestrator.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>main</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/migrate-gemini-content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>clearAllTables</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/migrate-gemini-content.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>loadLearningPaths</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/migrate-gemini-content.go</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>loadModules</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/migrate-gemini-content.go</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-high">
+            <td>linkModulesToPaths</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/migrate-gemini-content.go</td>
+            <td>O(n²)</td>
+            <td>Consider optimizing - complexity is O(n²)</td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>printMigrationStats</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/migrate-gemini-content.go</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>min</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/migrate-gemini-content.go</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>fix_yaml_multiline_script</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/fix-yaml-syntax.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>validate_yaml_syntax</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/scripts/fix-yaml-syntax.py</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>get</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/.vscode/extensions/cs-excellence-enforcer/out/extension.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>activate</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/.vscode/extensions/cs-excellence-enforcer/out/extension.js</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>deactivate</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/.vscode/extensions/cs-excellence-enforcer/out/extension.js</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-medium">
+            <td>activate</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/.vscode/extensions/cs-excellence-enforcer/src/extension.ts</td>
+            <td>O(n)</td>
+            <td></td>
+        </tr>
+        
+        <tr class="complexity-low">
+            <td>deactivate</td>
+            <td>/Users/jmc/Scheduling_test/RefaactoringW_Go/.vscode/extensions/cs-excellence-enforcer/src/extension.ts</td>
+            <td>O(1)</td>
+            <td></td>
+        </tr>
+        
+        </table>
+        
+        <h2>Circular Dependencies</h2>
+        <div class="metric">No circular dependencies found!</div>
+        
+        <h2>Dependencies</h2>
+        <div>
+            <div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/react-server.py → http.server (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/react-server.py → socketserver (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/react-server.py → os (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/react-server.py → posixpath (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/react-server.py → urllib.parse (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/react-server.py → pathlib.Path (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/react-server.py → sys (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → context (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → fmt (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → log (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → net/http (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → os (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → os/signal (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → syscall (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → time (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → zimpler-training-platform/internal/database (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → zimpler-training-platform/internal/handlers (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → zimpler-training-platform/internal/handlers/v2 (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → zimpler-training-platform/internal/middleware (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → zimpler-training-platform/internal/services/aiService (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → zimpler-training-platform/internal/services/contentService (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → zimpler-training-platform/internal/services/progressService (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → zimpler-training-platform/internal/services/quizService (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → zimpler-training-platform/internal/utils (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → github.com/gin-contrib/cors (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → github.com/gin-contrib/static (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → github.com/gin-gonic/gin (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → github.com/joho/godotenv (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/cmd/api/main.go → go.uber.org/zap (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/tailwind.config.js → tailwindcss (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/index.js → react (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/index.js → react-dom/client (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/index.js → react-router-dom (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/index.js → ./index.css (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/index.js → ./App (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → react (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → react-router-dom (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./config/featureFlags (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./services/legendaryAPI (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./services/api (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./components/EnhancedSidebar (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./components/ErrorBoundary (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./components/Header (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./components/Sidebar (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./components/User/UserProgressTracker (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./components/KnowledgeBase (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./components/LearningPaths (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./pages/Dashboard (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./pages/EnhancedDashboard (import)</div><div class="dependency">/Users/jmc/Scheduling_test/RefaactoringW_Go/frontend/src/App.js → ./pages/Module (import)</div>
+        </div>
+    </body>
+    </html>
+    

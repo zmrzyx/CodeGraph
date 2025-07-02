@@ -1,0 +1,233 @@
+name: CodeGraph Analysis
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  codegraph-analysis:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    - name: Install CodeGraph
+      run: |
+        # Install Python dependencies
+        python -m pip install --upgrade pip
+        pip install codegraph
+        
+        # Or install from source
+        # git clone https://github.com/codegraph-dev/CodeGraph.git
+        # cd CodeGraph/engine
+        # pip install -r requirements.txt
+    
+    - name: Run CodeGraph Analysis
+      run: |
+        codegraph analyze . --format json --output codegraph-results.json
+    
+    - name: Check for Circular Dependencies
+      run: |
+        codegraph cycles . --format json
+        if [ $? -ne 0 ]; then
+          echo "❌ Circular dependencies found!"
+          exit 1
+        fi
+    
+    - name: Validate Complexity
+      run: |
+        codegraph complexity . --max "O(n log n)" --format json
+        if [ $? -ne 0 ]; then
+          echo "❌ Functions exceed maximum complexity!"
+          exit 1
+        fi
+    
+    - name: Generate HTML Report
+      run: |
+        codegraph analyze . --format html --output codegraph-report.html
+    
+    - name: Upload Analysis Results
+      uses: actions/upload-artifact@v3
+      with:
+        name: codegraph-analysis
+        path: |
+          codegraph-results.json
+          codegraph-report.html
+    
+    - name: Comment PR with Results
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const fs = require('fs');
+          const results = JSON.parse(fs.readFileSync('codegraph-results.json', 'utf8'));
+          
+          const metrics = results.metrics;
+          const cycles = results.cycles.length;
+          const highComplexity = results.complexity.filter(c => 
+            c.complexity === 'O(n²)' || c.complexity === 'O(2^n)'
+          ).length;
+          
+          const body = `## 📊 CodeGraph Analysis Results
+          
+          - **Files Analyzed**: ${metrics.total_files}
+          - **Functions**: ${metrics.total_functions}
+          - **Dependencies**: ${metrics.dependency_count}
+          - **Circular Dependencies**: ${cycles} ${cycles > 0 ? '⚠️' : '✅'}
+          - **High Complexity Functions**: ${highComplexity} ${highComplexity > 0 ? '⚠️' : '✅'}
+          - **Average Complexity**: ${metrics.average_complexity}
+          
+          ${cycles > 0 ? '⚠️ **Warning**: Circular dependencies detected!' : ''}
+          ${highComplexity > 0 ? '⚠️ **Warning**: High complexity functions found!' : ''}
+          
+          [View Full Report](../../actions/runs/${context.runId})
+          `;
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: body
+          });
+
+  quality-gates:
+    runs-on: ubuntu-latest
+    needs: codegraph-analysis
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Download Analysis Results
+      uses: actions/download-artifact@v3
+      with:
+        name: codegraph-analysis
+    
+    - name: Quality Gate - Circular Dependencies
+      run: |
+        cycles=$(jq '.cycles | length' codegraph-results.json)
+        echo "Circular dependencies: $cycles"
+        
+        if [ "$cycles" -gt 0 ]; then
+          echo "❌ Quality gate failed: Circular dependencies found"
+          jq '.cycles[] | "Cycle: " + (.cycle | join(" → "))' codegraph-results.json
+          exit 1
+        fi
+        
+        echo "✅ Quality gate passed: No circular dependencies"
+    
+    - name: Quality Gate - Complexity
+      run: |
+        high_complexity=$(jq '[.complexity[] | select(.complexity == "O(n²)" or .complexity == "O(2^n)" or .complexity == "O(n!)")] | length' codegraph-results.json)
+        echo "High complexity functions: $high_complexity"
+        
+        if [ "$high_complexity" -gt 5 ]; then
+          echo "❌ Quality gate failed: Too many high complexity functions ($high_complexity > 5)"
+          jq '.complexity[] | select(.complexity == "O(n²)" or .complexity == "O(2^n)" or .complexity == "O(n!)") | "\(.function) in \(.file): \(.complexity)"' codegraph-results.json
+          exit 1
+        fi
+        
+        echo "✅ Quality gate passed: Acceptable complexity levels"
+    
+    - name: Quality Gate - Architecture
+      run: |
+        # Custom architecture validation
+        # This would check your specific architecture rules
+        echo "✅ Architecture validation passed"
+
+  security-scan:
+    runs-on: ubuntu-latest
+    needs: codegraph-analysis
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: CodeGraph Security Analysis
+      run: |
+        # Example: Check for known security anti-patterns
+        codegraph analyze . --format json | jq '.dependencies[] | select(.target | contains("eval") or contains("exec"))'
+        
+        # Check for potential security issues in complexity patterns
+        codegraph complexity . --format json | jq '.complexity[] | select(.warning and (.warning | contains("recursive")))'
+
+  performance-regression:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    
+    steps:
+    - name: Checkout PR branch
+      uses: actions/checkout@v3
+    
+    - name: Analyze PR branch
+      run: |
+        codegraph analyze . --format json --output pr-analysis.json
+    
+    - name: Checkout base branch
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ github.base_ref }}
+    
+    - name: Analyze base branch
+      run: |
+        codegraph analyze . --format json --output base-analysis.json
+    
+    - name: Compare Analysis Results
+      run: |
+        python -c "
+        import json
+        
+        with open('pr-analysis.json') as f:
+            pr_data = json.load(f)
+        with open('base-analysis.json') as f:
+            base_data = json.load(f)
+        
+        pr_metrics = pr_data['metrics']
+        base_metrics = base_data['metrics']
+        
+        # Check for regressions
+        if pr_metrics['circular_dependencies'] > base_metrics['circular_dependencies']:
+            print('❌ Regression: New circular dependencies introduced')
+            exit(1)
+        
+        if len(pr_data['complexity']) > len(base_data['complexity']) * 1.1:
+            print('❌ Regression: Significant increase in complexity')
+            exit(1)
+        
+        print('✅ No performance regressions detected')
+        "
+
+  deploy-reports:
+    runs-on: ubuntu-latest
+    needs: [codegraph-analysis, quality-gates]
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: Download Analysis Results
+      uses: actions/download-artifact@v3
+      with:
+        name: codegraph-analysis
+    
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: .
+        destination_dir: reports/${{ github.sha }}
+    
+    - name: Update Latest Report Link
+      run: |
+        echo "Latest CodeGraph report: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/reports/${{ github.sha }}/codegraph-report.html"

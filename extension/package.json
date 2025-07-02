@@ -1,0 +1,193 @@
+{
+    "name": "codegraph",
+    "displayName": "CodeGraph",
+    "description": "AST-based code analysis and dependency visualization",
+    "version": "0.1.0",
+    "publisher": "codegraph",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Other",
+        "Visualization",
+        "Linters"
+    ],
+    "keywords": [
+        "ast",
+        "analysis",
+        "dependencies",
+        "visualization",
+        "refactoring",
+        "complexity"
+    ],
+    "activationEvents": [
+        "onCommand:codegraph.analyzeProject",
+        "onCommand:codegraph.showDependencyGraph",
+        "onCommand:codegraph.checkComplexity",
+        "onCommand:codegraph.detectCycles",
+        "onLanguage:go",
+        "onLanguage:python",
+        "onLanguage:javascript",
+        "onLanguage:typescript"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "codegraph.analyzeProject",
+                "title": "Analyze Project",
+                "category": "CodeGraph"
+            },
+            {
+                "command": "codegraph.showDependencyGraph",
+                "title": "Show Dependency Graph",
+                "category": "CodeGraph"
+            },
+            {
+                "command": "codegraph.checkComplexity",
+                "title": "Check Algorithmic Complexity",
+                "category": "CodeGraph"
+            },
+            {
+                "command": "codegraph.detectCycles",
+                "title": "Detect Circular Dependencies",
+                "category": "CodeGraph"
+            },
+            {
+                "command": "codegraph.validateArchitecture",
+                "title": "Validate Architecture",
+                "category": "CodeGraph"
+            },
+            {
+                "command": "codegraph.generateReport",
+                "title": "Generate Analysis Report",
+                "category": "CodeGraph"
+            }
+        ],
+        "views": {
+            "explorer": [
+                {
+                    "id": "codegraphDependencies",
+                    "name": "Dependencies",
+                    "when": "codegraphEnabled"
+                },
+                {
+                    "id": "codegraphComplexity",
+                    "name": "Complexity Analysis",
+                    "when": "codegraphEnabled"
+                }
+            ]
+        },
+        "configuration": {
+            "title": "CodeGraph",
+            "properties": {
+                "codegraph.enableRealTimeAnalysis": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable real-time code analysis"
+                },
+                "codegraph.maxComplexity": {
+                    "type": "string",
+                    "default": "O(n log n)",
+                    "description": "Maximum allowed algorithmic complexity",
+                    "enum": [
+                        "O(1)",
+                        "O(log n)",
+                        "O(n)",
+                        "O(n log n)",
+                        "O(n²)",
+                        "O(2^n)"
+                    ]
+                },
+                "codegraph.showComplexityWarnings": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Show warnings for high complexity functions"
+                },
+                "codegraph.detectCircularDependencies": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Automatically detect circular dependencies"
+                },
+                "codegraph.pythonPath": {
+                    "type": "string",
+                    "default": "python",
+                    "description": "Path to Python executable for analysis engine"
+                },
+                "codegraph.enginePath": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Path to CodeGraph analysis engine"
+                },
+                "codegraph.excludePatterns": {
+                    "type": "array",
+                    "default": [
+                        "**/node_modules/**",
+                        "**/vendor/**",
+                        "**/.git/**"
+                    ],
+                    "description": "File patterns to exclude from analysis"
+                },
+                "codegraph.includePatterns": {
+                    "type": "array",
+                    "default": [
+                        "**/*.go",
+                        "**/*.py",
+                        "**/*.js",
+                        "**/*.ts"
+                    ],
+                    "description": "File patterns to include in analysis"
+                }
+            }
+        },
+        "languages": [
+            {
+                "id": "codegraph-config",
+                "aliases": [
+                    "CodeGraph Config"
+                ],
+                "extensions": [
+                    ".codegraph.config.js"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "codegraph-config",
+                "scopeName": "source.js",
+                "path": "./syntaxes/javascript.tmGrammar.json"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "lint": "eslint src --ext ts",
+        "test": "node ./out/test/runTest.js",
+        "package": "vsce package"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.60.0",
+        "@types/node": "16.x",
+        "@typescript-eslint/eslint-plugin": "^5.31.0",
+        "@typescript-eslint/parser": "^5.31.0",
+        "eslint": "^8.20.0",
+        "typescript": "^4.7.4",
+        "vsce": "^2.10.0"
+    },
+    "dependencies": {
+        "child_process": "^1.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/codegraph-dev/CodeGraph.git"
+    },
+    "bugs": {
+        "url": "https://github.com/codegraph-dev/CodeGraph/issues"
+    },
+    "homepage": "https://github.com/codegraph-dev/CodeGraph#readme",
+    "license": "MIT"
+}

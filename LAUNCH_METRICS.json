@@ -1,0 +1,987 @@
+{
+  "dependencies": [
+    {
+      "source": "../extension/out/extension.js",
+      "target": "vscode",
+      "type": "import",
+      "line": 27,
+      "column": 28
+    },
+    {
+      "source": "../extension/out/extension.js",
+      "target": "child_process",
+      "type": "import",
+      "line": 28,
+      "column": 24
+    },
+    {
+      "source": "../extension/out/extension.js",
+      "target": "path",
+      "type": "import",
+      "line": 29,
+      "column": 26
+    },
+    {
+      "source": "../extension/src/extension.ts",
+      "target": "child_process",
+      "type": "import",
+      "line": 1,
+      "column": 0
+    },
+    {
+      "source": "../extension/src/extension.ts",
+      "target": "path",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "../extension/src/extension.ts",
+      "target": "vscode",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "../examples/go_example.go",
+      "target": "fmt",
+      "type": "import",
+      "line": 4,
+      "column": 1
+    },
+    {
+      "source": "../examples/go_example.go",
+      "target": "encoding/json",
+      "type": "import",
+      "line": 5,
+      "column": 1
+    },
+    {
+      "source": "../examples/go_example.go",
+      "target": "os",
+      "type": "import",
+      "line": 6,
+      "column": 1
+    },
+    {
+      "source": "../examples/javascript_example.js",
+      "target": "fs",
+      "type": "import",
+      "line": 6,
+      "column": 11
+    },
+    {
+      "source": "../examples/javascript_example.js",
+      "target": "path",
+      "type": "import",
+      "line": 7,
+      "column": 13
+    },
+    {
+      "source": "../examples/python_example.py",
+      "target": "json",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "../examples/python_example.py",
+      "target": "os",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "../examples/python_example.py",
+      "target": "typing.List",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "../examples/python_example.py",
+      "target": "typing.Dict",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "../examples/python_example.py",
+      "target": "typing.Any",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "ast",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "argparse",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "json",
+      "type": "import",
+      "line": 9,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "os",
+      "type": "import",
+      "line": 10,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "sys",
+      "type": "import",
+      "line": 11,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "re",
+      "type": "import",
+      "line": 12,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "subprocess",
+      "type": "import",
+      "line": 13,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "pathlib.Path",
+      "type": "import",
+      "line": 14,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "typing.Dict",
+      "type": "import",
+      "line": 15,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "typing.List",
+      "type": "import",
+      "line": 15,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "typing.Any",
+      "type": "import",
+      "line": 15,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "typing.Set",
+      "type": "import",
+      "line": 15,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "typing.Tuple",
+      "type": "import",
+      "line": 15,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "typing.Optional",
+      "type": "import",
+      "line": 15,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "dataclasses.dataclass",
+      "type": "import",
+      "line": 16,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "dataclasses.asdict",
+      "type": "import",
+      "line": 16,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "collections.defaultdict",
+      "type": "import",
+      "line": 17,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "collections.deque",
+      "type": "import",
+      "line": 17,
+      "column": 0
+    },
+    {
+      "source": "../engine/codegraph.py",
+      "target": "importlib.util",
+      "type": "import",
+      "line": 18,
+      "column": 0
+    },
+    {
+      "source": "../engine/test_codegraph.py",
+      "target": "unittest",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "../engine/test_codegraph.py",
+      "target": "os",
+      "type": "import",
+      "line": 7,
+      "column": 0
+    },
+    {
+      "source": "../engine/test_codegraph.py",
+      "target": "tempfile",
+      "type": "import",
+      "line": 8,
+      "column": 0
+    },
+    {
+      "source": "../engine/test_codegraph.py",
+      "target": "json",
+      "type": "import",
+      "line": 9,
+      "column": 0
+    },
+    {
+      "source": "../engine/test_codegraph.py",
+      "target": "pathlib.Path",
+      "type": "import",
+      "line": 10,
+      "column": 0
+    },
+    {
+      "source": "../engine/test_codegraph.py",
+      "target": "sys",
+      "type": "import",
+      "line": 11,
+      "column": 0
+    },
+    {
+      "source": "../engine/test_codegraph.py",
+      "target": "codegraph.CodeGraphAnalyzer",
+      "type": "import",
+      "line": 16,
+      "column": 0
+    },
+    {
+      "source": "../engine/test_codegraph.py",
+      "target": "codegraph.PythonParser",
+      "type": "import",
+      "line": 16,
+      "column": 0
+    },
+    {
+      "source": "../engine/test_codegraph.py",
+      "target": "codegraph.JavaScriptParser",
+      "type": "import",
+      "line": 16,
+      "column": 0
+    },
+    {
+      "source": "../engine/test_codegraph.py",
+      "target": "codegraph.GoParser",
+      "type": "import",
+      "line": 16,
+      "column": 0
+    },
+    {
+      "source": "../engine/test_codegraph.py",
+      "target": "codegraph.DependencyGraphAnalyzer",
+      "type": "import",
+      "line": 16,
+      "column": 0
+    }
+  ],
+  "complexity": [
+    {
+      "function": "get",
+      "file": "../extension/out/extension.js",
+      "complexity": "O(1)",
+      "line": 6,
+      "warning": null
+    },
+    {
+      "function": "activate",
+      "file": "../extension/out/extension.js",
+      "complexity": "O(1)",
+      "line": 181,
+      "warning": null
+    },
+    {
+      "function": "deactivate",
+      "file": "../extension/out/extension.js",
+      "complexity": "O(1)",
+      "line": 334,
+      "warning": null
+    },
+    {
+      "function": "activate",
+      "file": "../extension/src/extension.ts",
+      "complexity": "O(1)",
+      "line": 251,
+      "warning": null
+    },
+    {
+      "function": "deactivate",
+      "file": "../extension/src/extension.ts",
+      "complexity": "O(1)",
+      "line": 446,
+      "warning": null
+    },
+    {
+      "function": "simpleFunction",
+      "file": "../examples/go_example.go",
+      "complexity": "O(1)",
+      "line": 10,
+      "warning": null
+    },
+    {
+      "function": "linearSearch",
+      "file": "../examples/go_example.go",
+      "complexity": "O(n)",
+      "line": 15,
+      "warning": null
+    },
+    {
+      "function": "bubbleSort",
+      "file": "../examples/go_example.go",
+      "complexity": "O(n\u00b2)",
+      "line": 25,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "NewDataProcessor",
+      "file": "../examples/go_example.go",
+      "complexity": "O(1)",
+      "line": 43,
+      "warning": null
+    },
+    {
+      "function": "ProcessData",
+      "file": "../examples/go_example.go",
+      "complexity": "O(n)",
+      "line": 50,
+      "warning": null
+    },
+    {
+      "function": "ComplexAnalysis",
+      "file": "../examples/go_example.go",
+      "complexity": "O(n\u00b2)",
+      "line": 63,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "fibonacci",
+      "file": "../examples/go_example.go",
+      "complexity": "O(1)",
+      "line": 83,
+      "warning": null
+    },
+    {
+      "function": "main",
+      "file": "../examples/go_example.go",
+      "complexity": "O(1)",
+      "line": 90,
+      "warning": null
+    },
+    {
+      "function": "simpleFunction",
+      "file": "../examples/javascript_example.js",
+      "complexity": "O(1)",
+      "line": 10,
+      "warning": null
+    },
+    {
+      "function": "linearSearch",
+      "file": "../examples/javascript_example.js",
+      "complexity": "O(n)",
+      "line": 15,
+      "warning": null
+    },
+    {
+      "function": "bubbleSort",
+      "file": "../examples/javascript_example.js",
+      "complexity": "O(n\u00b2)",
+      "line": 25,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "quickProcess",
+      "file": "../examples/javascript_example.js",
+      "complexity": "O(1)",
+      "line": 78,
+      "warning": null
+    },
+    {
+      "function": "quickProcess",
+      "file": "../examples/javascript_example.js",
+      "complexity": "O(1)",
+      "line": 78,
+      "warning": null
+    },
+    {
+      "function": "processItem",
+      "file": "../examples/javascript_example.js",
+      "complexity": "O(1)",
+      "line": 91,
+      "warning": null
+    },
+    {
+      "function": "main",
+      "file": "../examples/javascript_example.js",
+      "complexity": "O(1)",
+      "line": 98,
+      "warning": null
+    },
+    {
+      "function": "simple_function",
+      "file": "../examples/python_example.py",
+      "complexity": "O(1)",
+      "line": 10,
+      "warning": null
+    },
+    {
+      "function": "linear_search",
+      "file": "../examples/python_example.py",
+      "complexity": "O(n)",
+      "line": 14,
+      "warning": null
+    },
+    {
+      "function": "nested_loop_function",
+      "file": "../examples/python_example.py",
+      "complexity": "O(n\u00b2)",
+      "line": 21,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "recursive_fibonacci",
+      "file": "../examples/python_example.py",
+      "complexity": "O(2^n)",
+      "line": 29,
+      "warning": "Consider optimizing - complexity is O(2^n)"
+    },
+    {
+      "function": "main",
+      "file": "../examples/python_example.py",
+      "complexity": "O(1)",
+      "line": 66,
+      "warning": null
+    },
+    {
+      "function": "__init__",
+      "file": "../examples/python_example.py",
+      "complexity": "O(1)",
+      "line": 38,
+      "warning": null
+    },
+    {
+      "function": "process_data",
+      "file": "../examples/python_example.py",
+      "complexity": "O(n)",
+      "line": 41,
+      "warning": null
+    },
+    {
+      "function": "complex_analysis",
+      "file": "../examples/python_example.py",
+      "complexity": "O(n\u00b2)",
+      "line": 52,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "generate_html_report",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 816,
+      "warning": null
+    },
+    {
+      "function": "main",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 914,
+      "warning": null
+    },
+    {
+      "function": "__init__",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 70,
+      "warning": null
+    },
+    {
+      "function": "can_parse",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 73,
+      "warning": null
+    },
+    {
+      "function": "parse",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 77,
+      "warning": null
+    },
+    {
+      "function": "__init__",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 85,
+      "warning": null
+    },
+    {
+      "function": "parse",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 88,
+      "warning": null
+    },
+    {
+      "function": "_extract_dependencies",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n\u00b2)",
+      "line": 117,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "_analyze_complexity",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 144,
+      "warning": null
+    },
+    {
+      "function": "_estimate_complexity",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n\u00b2)",
+      "line": 166,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "_is_high_complexity",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 195,
+      "warning": null
+    },
+    {
+      "function": "_extract_functions",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 200,
+      "warning": null
+    },
+    {
+      "function": "_extract_imports",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n\u00b2)",
+      "line": 208,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "_extract_classes",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 220,
+      "warning": null
+    },
+    {
+      "function": "__init__",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 232,
+      "warning": null
+    },
+    {
+      "function": "parse",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 235,
+      "warning": null
+    },
+    {
+      "function": "_extract_dependencies",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n\u00b2)",
+      "line": 262,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "_analyze_complexity",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 289,
+      "warning": null
+    },
+    {
+      "function": "_extract_functions_with_lines",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n\u00b2)",
+      "line": 311,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "_extract_function_body",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 336,
+      "warning": null
+    },
+    {
+      "function": "_estimate_js_complexity",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 355,
+      "warning": null
+    },
+    {
+      "function": "_is_high_complexity",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 378,
+      "warning": null
+    },
+    {
+      "function": "_extract_functions",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n\u00b2)",
+      "line": 382,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "_extract_imports",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n\u00b2)",
+      "line": 400,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "_extract_classes",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 416,
+      "warning": null
+    },
+    {
+      "function": "__init__",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 429,
+      "warning": null
+    },
+    {
+      "function": "parse",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 432,
+      "warning": null
+    },
+    {
+      "function": "_extract_dependencies",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n\u00b2)",
+      "line": 459,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "_analyze_complexity",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 504,
+      "warning": null
+    },
+    {
+      "function": "_extract_functions_with_lines",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 526,
+      "warning": null
+    },
+    {
+      "function": "_extract_go_function_body",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 542,
+      "warning": null
+    },
+    {
+      "function": "_estimate_go_complexity",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 560,
+      "warning": null
+    },
+    {
+      "function": "_is_high_complexity",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 583,
+      "warning": null
+    },
+    {
+      "function": "_extract_functions",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 587,
+      "warning": null
+    },
+    {
+      "function": "_extract_imports",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 596,
+      "warning": null
+    },
+    {
+      "function": "_extract_structs",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 621,
+      "warning": null
+    },
+    {
+      "function": "__init__",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 634,
+      "warning": null
+    },
+    {
+      "function": "add_dependency",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 638,
+      "warning": null
+    },
+    {
+      "function": "detect_cycles",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 643,
+      "warning": null
+    },
+    {
+      "function": "get_dependencies",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 679,
+      "warning": null
+    },
+    {
+      "function": "get_dependents",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 683,
+      "warning": null
+    },
+    {
+      "function": "__init__",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 691,
+      "warning": null
+    },
+    {
+      "function": "analyze_project",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 699,
+      "warning": null
+    },
+    {
+      "function": "_find_source_files",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n\u00b2)",
+      "line": 759,
+      "warning": "Consider optimizing - complexity is O(n\u00b2)"
+    },
+    {
+      "function": "_get_parser",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(n)",
+      "line": 781,
+      "warning": null
+    },
+    {
+      "function": "_calculate_average_complexity",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(1)",
+      "line": 788,
+      "warning": null
+    },
+    {
+      "function": "dfs",
+      "file": "../engine/codegraph.py",
+      "complexity": "O(2^n)",
+      "line": 649,
+      "warning": "Consider optimizing - complexity is O(2^n)"
+    },
+    {
+      "function": "run_tests",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(n)",
+      "line": 368,
+      "warning": null
+    },
+    {
+      "function": "setUp",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 28,
+      "warning": null
+    },
+    {
+      "function": "test_can_parse_python_files",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 31,
+      "warning": null
+    },
+    {
+      "function": "test_parse_simple_python",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 38,
+      "warning": null
+    },
+    {
+      "function": "setUp",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 92,
+      "warning": null
+    },
+    {
+      "function": "test_can_parse_js_files",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 95,
+      "warning": null
+    },
+    {
+      "function": "test_parse_simple_javascript",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 103,
+      "warning": null
+    },
+    {
+      "function": "setUp",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 155,
+      "warning": null
+    },
+    {
+      "function": "test_can_parse_go_files",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 158,
+      "warning": null
+    },
+    {
+      "function": "test_parse_simple_go",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 165,
+      "warning": null
+    },
+    {
+      "function": "setUp",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 224,
+      "warning": null
+    },
+    {
+      "function": "test_add_dependency",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 227,
+      "warning": null
+    },
+    {
+      "function": "test_cycle_detection",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(n)",
+      "line": 238,
+      "warning": null
+    },
+    {
+      "function": "test_no_cycles",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 256,
+      "warning": null
+    },
+    {
+      "function": "setUp",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 269,
+      "warning": null
+    },
+    {
+      "function": "test_analyze_empty_project",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 272,
+      "warning": null
+    },
+    {
+      "function": "test_analyze_simple_project",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 282,
+      "warning": null
+    },
+    {
+      "function": "test_complexity_estimation",
+      "file": "../engine/test_codegraph.py",
+      "complexity": "O(1)",
+      "line": 324,
+      "warning": null
+    }
+  ],
+  "cycles": [],
+  "metrics": {
+    "total_files": 8,
+    "total_functions": 93,
+    "average_complexity": "O(log n)",
+    "dependency_count": 46,
+    "circular_dependencies": 0
+  }
+}
