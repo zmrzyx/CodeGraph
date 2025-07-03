@@ -1,0 +1,125 @@
+{
+  "dependencies": [
+    {
+      "source": "/tmp/problematic-codebase/serviceA.js",
+      "target": "./serviceB",
+      "type": "import",
+      "line": 2,
+      "column": 17
+    },
+    {
+      "source": "/tmp/problematic-codebase/serviceA.js",
+      "target": "./serviceC",
+      "type": "import",
+      "line": 3,
+      "column": 17
+    },
+    {
+      "source": "/tmp/problematic-codebase/serviceB.ts",
+      "target": "./serviceA",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/problematic-codebase/serviceB.ts",
+      "target": "./serviceC",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/problematic-codebase/serviceC.ts",
+      "target": "./serviceA",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/problematic-codebase/serviceC.ts",
+      "target": "./serviceB",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/problematic-codebase/main.js",
+      "target": "./serviceA",
+      "type": "import",
+      "line": 2,
+      "column": 17
+    },
+    {
+      "source": "/tmp/problematic-codebase/main.js",
+      "target": "./serviceB",
+      "type": "import",
+      "line": 3,
+      "column": 17
+    },
+    {
+      "source": "/tmp/problematic-codebase/main.js",
+      "target": "./serviceC",
+      "type": "import",
+      "line": 4,
+      "column": 17
+    },
+    {
+      "source": "/tmp/problematic-codebase/main.js",
+      "target": "./utils",
+      "type": "import",
+      "line": 5,
+      "column": 14
+    },
+    {
+      "source": "/tmp/problematic-codebase/serviceA.ts",
+      "target": "./serviceB",
+      "type": "import",
+      "line": 2,
+      "column": 0
+    },
+    {
+      "source": "/tmp/problematic-codebase/serviceA.ts",
+      "target": "./serviceC",
+      "type": "import",
+      "line": 3,
+      "column": 0
+    },
+    {
+      "source": "/tmp/problematic-codebase/serviceC.js",
+      "target": "./serviceA",
+      "type": "import",
+      "line": 2,
+      "column": 17
+    },
+    {
+      "source": "/tmp/problematic-codebase/serviceC.js",
+      "target": "./serviceB",
+      "type": "import",
+      "line": 3,
+      "column": 17
+    },
+    {
+      "source": "/tmp/problematic-codebase/serviceB.js",
+      "target": "./serviceA",
+      "type": "import",
+      "line": 2,
+      "column": 17
+    },
+    {
+      "source": "/tmp/problematic-codebase/serviceB.js",
+      "target": "./serviceC",
+      "type": "import",
+      "line": 3,
+      "column": 17
+    }
+  ],
+  "complexity": [],
+  "cycles": [],
+  "metrics": {
+    "total_files": 8,
+    "total_functions": 0,
+    "average_complexity": "O(1)",
+    "dependency_count": 16,
+    "circular_dependencies": 0
+  }
+}

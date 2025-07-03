@@ -1,0 +1,91 @@
+{
+  "dependencies": [
+    {
+      "source": "/tmp/fixed-codebase/serviceA.js",
+      "target": "events",
+      "type": "import",
+      "line": 5,
+      "column": 21
+    },
+    {
+      "source": "/tmp/fixed-codebase/serviceA.js",
+      "target": "./interfaces",
+      "type": "import",
+      "line": 6,
+      "column": 28
+    },
+    {
+      "source": "/tmp/fixed-codebase/serviceB.ts",
+      "target": "events",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/fixed-codebase/serviceB.ts",
+      "target": "./interfaces",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/fixed-codebase/serviceC.ts",
+      "target": "events",
+      "type": "import",
+      "line": 5,
+      "column": 0
+    },
+    {
+      "source": "/tmp/fixed-codebase/serviceC.ts",
+      "target": "./interfaces",
+      "type": "import",
+      "line": 6,
+      "column": 0
+    },
+    {
+      "source": "/tmp/fixed-codebase/main.js",
+      "target": "./serviceA",
+      "type": "import",
+      "line": 4,
+      "column": 21
+    },
+    {
+      "source": "/tmp/fixed-codebase/main.js",
+      "target": "./serviceB",
+      "type": "import",
+      "line": 5,
+      "column": 21
+    },
+    {
+      "source": "/tmp/fixed-codebase/main.js",
+      "target": "./serviceC",
+      "type": "import",
+      "line": 6,
+      "column": 21
+    },
+    {
+      "source": "/tmp/fixed-codebase/main.js",
+      "target": "./utils",
+      "type": "import",
+      "line": 7,
+      "column": 38
+    }
+  ],
+  "complexity": [
+    {
+      "function": "createInterface",
+      "file": "/tmp/fixed-codebase/interfaces.ts",
+      "complexity": "O(1)",
+      "line": 35,
+      "warning": null
+    }
+  ],
+  "cycles": [],
+  "metrics": {
+    "total_files": 6,
+    "total_functions": 1,
+    "average_complexity": "O(1)",
+    "dependency_count": 10,
+    "circular_dependencies": 0
+  }
+}
